@@ -5,7 +5,7 @@
 
 <script>
 import SigninForm from "./components/SigninForm.vue";
-import Newcustomer from "./components/NewCustomer.vue";
+import NewCustomer from "./components/NewCustomer.vue";
 
 export default {
   name: "App",
