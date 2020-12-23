@@ -1,16 +1,19 @@
 <template>
- <SignupForm />
+  <SigninForm />
+  <NewCustomer />
 </template>
 
 <script>
-import SignupForm from './components/SignupForm.vue'
+import SigninForm from "./components/SigninForm.vue";
+import Newcustomer from "./components/NewCustomer.vue";
 
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    SignupForm
-  }
-}
+    SigninForm,
+    NewCustomer,
+  },
+};
 </script>
 
 <style>
@@ -20,11 +23,10 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
+  margin-top: 20px;
 }
-body
-{
-  margin : 0;
-  background: #eee;
+body {
+  margin: 0;
+  padding: 0;
 }
 </style>
